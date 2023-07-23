@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-        {/* <h1>Hello</h1> */}
+        <h1>Sum Calculator</h1>
         <input type="number" onChange={(e)=>setNumber(parseInt(e.target.value))} value={number}/>
          <p>Sum: {sum}</p>
     </div>
